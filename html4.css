@@ -1,0 +1,32 @@
+body{
+	font-family: Verdana, sans-serif;
+	font-size: 0.9em;
+	margin: 0px;	
+	padding: 0px;
+}
+#header, #footer{
+	padding: 10px;
+	background-color: red;
+	color: #fff;
+	text-align: center;
+}
+#menu ul{
+	background-color: blue;
+	margin: 0px;
+}
+#menu ul li{
+	display: inline-block;	
+	padding: 10px 20px;
+}
+#menu ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+#content{
+	margin:0px 60px;
+}
+.article{
+    padding: 5px 20px;
+    background: #03A9F4;
+    margin-bottom: 20px;
+}

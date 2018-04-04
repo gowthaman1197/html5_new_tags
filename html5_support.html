@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML5 support</title>
+	<style type="text/css">
+		header, nav, footer, section, article, aside, main, mark{
+			display: block;
+		}
+		mydoc{
+			display: block;
+			padding: 5px;
+			font-size: 20px;
+			background: red;
+		}
+	</style>
+	<!--[if lt IE = 8]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Contact us</a></li>
+			</ul>		
+		</nav>
+	</header>
+	<h1>Create a new element.</h1>
+	<mydoc>Hello</mydoc>
+	<script type="text/javascript">
+		document.createElement("mydoc");
+	</script>
+</body>
+</html>
